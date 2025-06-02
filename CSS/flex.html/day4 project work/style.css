@@ -1,0 +1,33 @@
+header{
+background-color:lightgoldenrodyellow;
+}
+<nav>{
+    background-color: rgb(253, 246, 236);
+}
+nav ul {
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border: 5px solid pink;
+    border-radius: 5px;
+    margin: 2px 3px;
+    background-color: skyblue;
+}
+footer{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

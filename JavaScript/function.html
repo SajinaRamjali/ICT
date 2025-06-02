@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button {
+            background-color: pink;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Function</title>
+</head>
+<body style="background-color: rgb(97, 214, 175);">
+    <h1>Javascript Function</h1>
+    <p>We are adding numbers <b>5</b> and <b>10</b> The result will be
+    display after clicking button.</p>
+
+    <button onclick=" alert(addNumbers(10))">Add</button>
+    <button onclick="alert(addNumbers(80,30))">Sum</button>
+    <button onclick="alert(addNumbers(20,70))">Total</button>
+    
+<script>
+     function addNumbers(a, b=200){
+    // let a = 5;
+    // let b = 10;
+    // // alert(`The sum is ${a+b}`);
+    return a+b;
+}
+
+    </script>
+</body>
+</html>

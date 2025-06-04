@@ -18,7 +18,7 @@ width: 200px;
 
 header button {
   padding: 8px 12px;
-  background-color: pink;
+  background-color: darkorange;
   border: none;
   cursor: pointer;
 }
@@ -59,7 +59,7 @@ header button {
 
 .product-card button {
 padding: 1-px 20px;
-background-color: rgb(204, 142, 71);
+background-color: darkorange;
 border: none;
 border-radius: 4px;
 cursor: pointer;
